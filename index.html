@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>survey form</title>
+<link rel="stylessheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title"> Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us to improve the platform<p>
+<form action="freecodecamp.org"  id="survey-form">
+    <label for="name" id="name-label">Name: <input type="text" id="name" placeholder="   Enter your name" required/></label>
+    <label for="email" id="email-label">Email: <input type="email" id="email"placeholder=" Enter your mail id" required/></label>
+    <label for="number" id="number-label">Age: <input type="number" id="number" placeholder=" Age" min="18" max="120" required/>
+    <label for="dropdown">which of the following best describe your role?</label>
+    <select id="dropdown" placeholder='select an option'>
+      <option></option>
+      <option>Student</option>
+      <option>Professor</option>
+      <option>Parent</option>
+      <option>Job seekeer</option>
+      <option>Other</option>
+    </select>
+    <label>Would you like to recommend this to your friend</label>
+    <input type="radio" name="survey" value="yes" checked/>YES
+    <input type="radio" name="survey"  value="no">NO</input>
+  
+<label>What would you like to see?</label>
+<label><input type="checkbox" value="HTML" /> HTML</label>
+<label><input type="checkbox" value="java"/> Java</label>
+<label> Any comments or suggestions?</label>
+<textarea rows="3" cols="30"></textarea>
+<label></label>
+<input type="submit" id="submit" vale="Submit"/>
+
+</body>
+</html>
+
+
+
